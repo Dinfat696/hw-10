@@ -18,7 +18,7 @@ public class Main {
         System.out.println("ФИО сотрудника — "+ fullName);
     }
     public static void task2() {
-        System.out.println("Задача 1");
+        System.out.println("Задача 2");
         String firstName = "Ivanov ";
         String middleName = "Ivan ";
         String lastName = "Ivanovich ";
