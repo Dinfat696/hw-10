@@ -2,9 +2,9 @@ public class Main {
 
     public static void main(String[] args) {
         task1();
-           task2();
-        /*task3();
-            task4();*/
+        task2();
+        task3();
+            /*task4();*/
 
     }
 
@@ -23,6 +23,16 @@ public class Main {
         String middleName = "Ivan ";
         String lastName = "Ivanovich ";
         String fullName = firstName + middleName + lastName;
-        System.out.println("ФИО сотрудника — "+ fullName.toUpperCase());
+        System.out.println("Данные ФИО сотрудника для заполнения отчета — "+ fullName.toUpperCase());
+
 }
+    public static void task3() {
+        System.out.println("Задача 3");
+        String firstName = "Иванов ";
+        String middleName = "Семён ";
+        String lastName = "Семёнович ";
+        String fullName = firstName + middleName + lastName;
+        fullName = fullName.replace("ё", "е");
+        System.out.println("Данные ФИО сотрудника — " + fullName);
+    }
 }
